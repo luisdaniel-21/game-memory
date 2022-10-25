@@ -2,15 +2,17 @@
 
 body{
   font-family: 'Ubuntu|Lora', sans-serif;
-  background-image: url(../public/sportsbg.jpg);
+  background-image: url(../public/fnd.png);
   background-size: cover;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  
 }
+
+
 
 body::before{
   content: '';
@@ -23,6 +25,8 @@ body::before{
 h1{
   font-size: 4rem;
   margin-bottom: 4rem;
+  color: white;
+  
 }
 
 .game-block{
@@ -67,8 +71,8 @@ h1{
 
 button{
   border: none;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   cursor: pointer;
 }
 
@@ -85,8 +89,8 @@ button.reset{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   position: fixed;
   top: 1rem;
   right: 1rem;
